@@ -8,9 +8,11 @@
 </head>
 <body>
   <%= nav_bar brand:"ESTOQUE", brand_link: root_url do %>
-    <%= form_tag busca_produto_path, class: "navbar-form navbar-right" do%>
+    <%= form_tag busca_produto_path, method:
+                  :get, 
+                  class: "navbar-form navbar-right" do%>
       <div class="form-group">
-        <%= text_field_tag :nome, nil, class: "form-control"%>
+        <%= text_field_tag :nome, @nome_a_buscar, class: "form-control"%>
         <%= button_to "Buscar", nil, class:"btn btn-default" %>
       </div>
     <% end %>
