@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <%= nav_bar brand:"LOJAO", brand_link:"/" %>
+    <table class='table table-bordered'>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <% @produtos_nome.each do |produto| %>
+            <tr>
+                <td><%= produto.nome %></td>
+                <td><%= produto.descricao %></td>
+                <td><%= produto.preco %></td>
+                <td><%= produto.quantidade %></td>
+            </tr>
+            <% end %>
+        </tbody>
+    </table>
+    <table class ='table table-bordered'>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <% @produtos_preco.each do |produto| %>
+            <tr>
+                <td><%= produto.nome %></td>
+                <td><%= produto.descricao %></td>
+                <td><%= produto.preco %></td>
+                <td><%= produto.quantidade %></td>
+            </tr>
+            <% end %>
+        </tbody>
+    </table>
+</body>
+</html>
