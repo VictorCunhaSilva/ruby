@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#login google+
+gem "omniauth-google-oauth2", "~> 0.2.1"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record

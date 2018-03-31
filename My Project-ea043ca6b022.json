@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stoked-keyword-199720",
+  "private_key_id": "ea043ca6b0229b81ccce70f0a326628d56dace76",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3JxjqYWjpIv2F\nZ9jiumK+wsS63+MdW+guXhd184n+6IGJIZWarD+z3J2zrtrGWOfAKFalKhfMENz6\nZ/yIUj/7yRxTru7RRd655DNUFilgWfnS9psZ1TVAX0fNGjKxdDgTsBoD9gQQHPUq\nyQ2D0bghy3f0Zh6YI8I3kznWyCZ9Kut7v4dE2a2s47bwYwgDcPxD6oWZe9U8D1YX\nX2zJd1fHdWqlalVgKoVC2taTFcQPNPuFmcBHfDvfwYf0PU72dbpz8Ep3aZqiadmQ\niYpWB+HfHAcykLMOGVq3TOBgRmNj1tR8X/e7GnqByJfwmyHrd/f8mXYe4ZH+2zJJ\nx7gnK6UDAgMBAAECggEAAVbPV1NcACxfJye3Db1SyytDDfdkwopb/GQiuXGM5j4O\nnbvkS0u2xtq2P8ySUUCa0oGuVH8mH7oAgPIxW1EiokrPorWqOFcm8DwAu2d9aPTE\nygE/Prqbgjt6xmn1H0KxcES+2Ug7XQohKW1r5GABqnmW3cTAtNhkwKGacCgUI/Z2\nX12Spis9RsIyduTUDWGwDGpc6nqGZEv5/vaAMcWr0X9AfLzf/n3hwcJLkPwyhLSx\nBnBLpRFQfILMB6kBrXRb6Pp5KkPTTnzoWDclkHufct6kBO6SB+lTNtUgSjlc19/S\n4Ng/kfIwHXKhZZmHXYz3pnvefFPCSE1wm62v7yrRDQKBgQDZmOYJpR+P9lNZDAoE\n0V2BxxJhYtI743UAa1CVE0g1/FhFQvv0SVXxvE0/5vN53tMCHrDG0X88YIgYWlDv\njdSgXP7h5SaNuN1k3aP7cIC6qjuUgsWDtIKhVzm/3oWDhnPbi5VRKqlRjoBvTmsD\nyPlo0vpxcBjmL4fyZkWdfCfoxwKBgQDXefxMhVc3zdGEOJrBXo8E5SlZop1hWAzG\n978nWUtmRFqBXzXNQlmQPqrMknAF2veIbOH8BvkNH/l7HFo//0V1n8auE3gVBqP2\nucH4Km/FcNgjIc96mfSCQyHA9EVVz1FLwARldWm8mdcRRS1gQGnLNDT72gRzJTjw\nwT8sG/c95QKBgHPbEvAjuPBfyPTqkhMKnmzQ35p2kVVNwCge+2LER3hnCWCnT5s7\nyMTS65aQkyZaW6MPUDQrq0EsbIn63IkPzRwtJ5CC/8oJmedwkzT3K7M3nE1wa1W6\nsKrS1G6yPghPeDR212PGASzpYLzi1dvID/OeEbaAZuF4gTuw9HPrfRxVAoGACOdN\neYv48qFaivAb1OmnVzhw4PdLMX6F6KLMD0AtUWh5pObePkEDmmY8gH98iYFmwQhe\nvh87o0My99dQE1zk7dtQRlkfmR7RH5zFWw/F1o63H5yCCjraU5eaiXKOeuE6Jrsk\nc1zKpbRlop0NJvECbhcWKWH01R0woSIbDiOJr9ECgYBrXQiGihuNgjLc2daZYFrH\n4T81n63mWWC7UQ8rJoC27zdsiD0iBjMeCUCXMBI2xNW516zimEVFqCAPgE2OscJm\n46XpOA6FYenNcvJuIhvZyphDbjk1h4F8nbKXxDTvtmMYlyZJMqYh1GVpw5Eb7GfG\nomk6nEJVdOVifsAuiUCgjA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "victor-silva@stoked-keyword-199720.iam.gserviceaccount.com",
+  "client_id": "113773179308175068832",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/victor-silva%40stoked-keyword-199720.iam.gserviceaccount.com"
+}
