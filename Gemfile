@@ -16,4 +16,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'twitter-bootstrap-rails'
 
+gem 'pg'
+
+gem 'taps'
+
 

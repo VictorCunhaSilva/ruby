@@ -1,14 +1,15 @@
 Rails.application.routes.draw do
+  
   get 'sessions/create'
 
   get 'sessions/destroy'
 
   get 'home/show'
 
-    root "produtos#index"
-    resources :produtos, only: [:new, :create, :destroy, :edit, :update]
-    get "get/produtos/busca" => "produtos#busca", as: :busca_produto
-    
+  root "sessions#login"#root "produtos#index"
+  resources :produtos, only: [:new, :create, :destroy, :edit, :update]
+  get "get/produtos/busca" => "produtos#busca", as: :busca_produto
+  
     
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
@@ -16,8 +17,8 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
- 
-  #root to: "home#show"
+
+  #root to: "produtos#index"
 end
 #GoogleAuthExample::Application.routes.draw do
 
